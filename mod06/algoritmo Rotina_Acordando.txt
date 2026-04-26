@@ -1,0 +1,31 @@
+algoritmo "Rotina_Acordando"
+// Função: Detalhar o passo a passo a hora de acordar
+// Aluno: Ethan Faccioli
+
+var
+   despertadorTocando: logico
+
+inicio
+   despertadorTocando <- verdadeiro
+   
+   escreval("INÍCIO DA ROTINA MATINAL")
+   escreval("1. Ouvir o som do despertador tocando.")
+   escreval("2. Abrir os olhos.")
+   escreval("3. Esticar o braço em direção a cômoda/celular.")
+   escreval("4. Apertar o botão para desligar o alarme.")
+   
+   despertadorTocando <- falso
+   
+   escreval("5. Tirar a coberta de cima do corpo.")
+   escreval("6. Virar o corpo de lado em direção à saída da cama.")
+   escreval("7. Sentar na beirada da cama.")
+   escreval("8. Levantar os braços e espreguiçar as costas.")
+   escreval("9. Descer as pernas e tatear o chão com os pés para calçar os chinelos.")
+   escreval("10. Ficar de pé.")
+   escreval("11. Dar o primeiro passo em direção à porta do quarto.")
+   escreval("12. Caminhar até o banheiro.")
+   escreval("13. Ligar o interruptor de luz do banheiro.")
+   escreval("14. Abrir a torneira, jogar água no rosto e secar com a toalha.")
+   escreval("15. Rotina concluída!")
+   
+fimalgoritmo
