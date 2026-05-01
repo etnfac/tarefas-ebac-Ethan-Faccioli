@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile Java",
+      "type": "shell",
+      "command": "javac -d bin src\\br\\com\\efaccioli\\App.java src\\br\\com\\efaccioli\\dao\\*.java src\\br\\com\\efaccioli\\domain\\*.java",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$javac"]
+    }
+  ]
+}
